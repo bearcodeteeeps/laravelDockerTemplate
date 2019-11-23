@@ -14,14 +14,6 @@
                 "/app": "${workspaceRoot}"
             },
             "ignore": ["**/vendor/**/*.php"]
-        }, {
-            "name": "Homestead",
-            "type": "php",
-            "request": "launch",
-            "pathMappings": {
-                "/home/vagrant/Code/sraxmd-api": "${workspaceRoot}"
-            },
-            "port": 9000
-        },
+        }
     ]
  }
